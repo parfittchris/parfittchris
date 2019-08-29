@@ -1994,8 +1994,8 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 3.5em 3em 1em 7em ;
-			width: 50%;
+			padding: 2em 2em 1em 2em ;
+			width: 33.3%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
@@ -2004,7 +2004,7 @@ input, select, textarea {
 				border-top-width: 0;
 			}
 
-			.features section:nth-child(2n) {
+			.features section:nth-child(n) {
 				border-left: solid 1px rgba(255, 255, 255, 0.15);
 			}
 
@@ -2566,6 +2566,8 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		width: 10px;
+		
 	}
 
 		.image img {
@@ -3009,7 +3011,7 @@ input, select, textarea {
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
+			width: 30em;
 		}
 
 			.spotlights > section > .image img {
@@ -3919,4 +3921,45 @@ input, select, textarea {
 		}
 
 		.section-icon {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.section-icon > svg {
+			width: 40%;
+		}
+
+		.section-icon > h3 {
+			margin-top: 5%;
+		}
+
+		.project-content{
+			display: flex;
+		}
+
+		.project-content-text {
+			width: 40%;
+		}
+
+		.project-content-image {
+			margin-left: 5%;
+			width: 55%;
+		}
+
+		.project-image {
+			margin-top: 1em;
+			height: 22em;
+		}
+
+		.project-image {
+			/* margin-top: -1em; */
+			height: 22em;
+		}
+		
+		.project-links {
+			display: flex;
+			width: 40%;
+			justify-content: center;
 		}
