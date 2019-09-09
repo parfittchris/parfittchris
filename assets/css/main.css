@@ -3975,3 +3975,13 @@ input, select, textarea {
 			background-image: url("images/intro.svg"), linear-gradient(#5E43A6, rgb(48, 35, 83));
 		}
 		
+		.awards-text {
+			width: 40%;
+		}
+		.capstone-img {
+			position: absolute;
+			right: 3%;
+			top: 38%;
+			height: 40%;
+			width: 40%;
+		}
