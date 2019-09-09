@@ -3961,3 +3961,17 @@ input, select, textarea {
 			width: 40%;
 			justify-content: center;
 		}
+
+		.about-header {
+			text-align: center;
+		}
+
+		.about-paragraph {
+			text-align: center;
+		}
+
+		#one {
+			/* background-image: ; */
+			background-image: url("images/intro.svg"), linear-gradient(#5E43A6, rgb(48, 35, 83));
+		}
+		
