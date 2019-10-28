@@ -2445,6 +2445,7 @@ input, select, textarea {
 			background: #ffffff;
 			border-color: #ffffff;
 			color: #b74e91;
+
 			content: '\f00c';
 		}
 
@@ -3985,3 +3986,4 @@ input, select, textarea {
 			height: 40%;
 			width: 40%;
 		}
+
