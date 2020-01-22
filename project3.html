@@ -27,7 +27,8 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="project1.html">KungFulu</a></li>
           <li><a href="project2.html">What's For Dinner?</a></li>
-          <li><a href="project3.html" class="active">Let's Eat Out!</a></li>
+          <li><a href="project3.html" class="active">News Center</a></li>
+          <li><a href="project4.html">Credit Card Maker</a></li>
         </ul>
       </nav>
     </header>
@@ -37,15 +38,14 @@
       <!-- Main -->
       <section id="main" class="wrapper">
         <div class="inner">
-          <h1 class="major">Let's eat out!</h1>
+          <h1 class="major">News Center</h1>
           <p>
-            Restaurant review website featuring user-auth sign-in, review
-            posting and deletion, and ability for profiles to follow others.
+            Web Scraping app that compares the current headlines from top news websites
           </p>
           <ul class="project-links actions">
             <li>
               <a
-                href="https://letseatoutapp.herokuapp.com/"
+                href="https://newscenter-app.herokuapp.com/"
                 class="button"
                 target="_blank"
                 >Live</a
@@ -53,7 +53,7 @@
             </li>
             <li>
               <a
-                href="https://github.com/parfittchris/letsEatOut"
+                href="https://github.com/parfittchris/newscenter_app"
                 class="button"
                 target="_blank"
                 >Github</a
@@ -63,28 +63,26 @@
           <div class="project-content">
             <div class="project-content-text">
               <p>
-                Skills utilized: Vue/Vuex, Rails 5, Ruby, PostgreSQL,
-                Javascript, HTML5, CSS3
+                Skills utilized: Python, Flask, Selenium, React, SQLite
               </p>
               <ul>
                 <li>
-                  User-authenticated login and signup pages. Unauthorized users
-                  prohibited from viewing site.
+                  React-based app shows current headlines scraped from home pages of CNN, Fox, NBC, Huffington Post, and NYTimes
                 </li>
                 <li>
-                  Users can browse restaurant reviews and write their own. Users
-                  can delete reviews only if they wrote them.
+                 Headlines act as links to the articles they reference
+                <li>
+                  Data is obtained from custom built Flask API and SQLite database (https://github.com/parfittchris/newsCenterBackend)
                 </li>
                 <li>
-                  User profile page shows all reviews and allows current user to
-                  follow other profiles.
+                  Webscraping is done via a Selenium script executred asynchronously every 3 hours to keep headlines current
                 </li>
               </ul>
             </div>
             <div class="project-content-image">
               <span class="image fit"
                 ><img
-                  src="./images/letseatout.gif"
+                  src="./images/NewsCenterHomepage.png"
                   alt=""
                   class="project-image-3"
               /></span>
